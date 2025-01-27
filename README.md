@@ -1,8 +1,8 @@
-#Sample-Chatbot-for-DoJ
+# Sample-Chatbot-for-DoJ
 DoJ Chatbot
 This project is a simple interactive chatbot that answers questions based on a predefined dataset of questions and answers. It also displays images associated with the answers when available.
 
-##Table of Contents
+## Table of Contents
 Installation
 Usage
 Project Structure
@@ -12,7 +12,7 @@ Installation
 Prerequisites
 Make sure you have the following software installed:
 
-###Python 3.x
+### Python 3.x
 pip (Python package installer)
 Git (optional)
 Clone the Repository
@@ -22,7 +22,7 @@ Install Dependencies
 Before running the chatbot, install the required Python libraries by running:
 
 pip install -r requirements.txt
-The requirements.txt file should contain the following libraries:
+## The requirements.txt file should contain the following libraries:
 
 pandas
 nltk
@@ -48,7 +48,7 @@ Place the CSV file in the SampleBot directory (or update the path accordingly in
 
 Execute the script to start the chatbot.
 python chatbot.py
-##Interacting with the Chatbot:
+## Interacting with the Chatbot:
 
 The chatbot will prompt you with "DoJ Chatbot: How can I assist you today?".
 Enter your question, and the chatbot will respond with the best matching answer and display an associated image if available.
@@ -60,10 +60,10 @@ SampleBot/
 ├── chatbot.py        # Main script file for the chatbot
 ├── requirements.txt  # List of dependencies (optional)
 └── README.md         # Documentation file
-###Contributing
+### Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes. Ensure that your code is well-documented and tested.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 This README.md file provides a clear guide on how to set up, use, and contribute to the chatbot project. Be sure to replace "https://github.com/username/repository-name.git" with the actual URL of your GitHub repository.
